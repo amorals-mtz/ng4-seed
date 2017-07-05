@@ -4,11 +4,13 @@ import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [
-        AppComponent
-      ],
-    }).compileComponents();
+    TestBed
+      .configureTestingModule({
+        declarations: [
+          AppComponent
+        ],
+      })
+      .compileComponents();
   }));
 
   it('should create the app', async(() => {

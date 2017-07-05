@@ -5,12 +5,14 @@
 # compiled output
 /dist
 /tmp
+/out-tsc
 /src/**/*.js
 /src/**/*.js.map
 
 # dependencies
 /node_modules
 /bower_components
+/typings
 
 # IDEs and editors
 /.idea
@@ -35,11 +37,10 @@
 /libpeerconnection.log
 npm-debug.log
 testem.log
-/typings
 
 # e2e
-/e2e/*.js
-/e2e/*.map
+/e2e/**/*.js
+/e2e/**/*.map
 
 # System Files
 .DS_Store
